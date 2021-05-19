@@ -18,6 +18,7 @@ Stay Tuned...
  - Light Photo Editing
  - Recording Editing
  - Audio to text conversion
+ - A macOS App
 
 ## Things To Note
 
