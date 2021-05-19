@@ -9,6 +9,10 @@ This is a SwiftUI app that allows you to quickly get down information that you n
  - Ability to record audio
  - Ability to share files outside of the app
 
+## Releases
+
+Stay Tuned...
+
 ## Features To Come
 
  - Light Photo Editing
@@ -17,4 +21,7 @@ This is a SwiftUI app that allows you to quickly get down information that you n
 
 ## Things To Note
 
-This is not a fully fledged version of any of the core features in the app. It is designed to be a quick and light all-in-one solution. It is not designed for heavy usage all the time,  and the features here probably won’t stand up to those use cases. However, proper apps for each of these core features could be considered in the future. 
+This is not a fully fledged version of any of the core features in the app. It is designed to be a quick and light all-in-one solution. It is not designed for heavy usage all the time,  and the features here probably won’t stand up to those use cases. However, proper apps for each of these core features could be considered in the future.
+
+## Images
+Stay Tuned... 
