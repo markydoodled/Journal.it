@@ -1,4 +1,5 @@
 ## Journal.it
+**About**
 
 This is a SwiftUI app that allows you to quickly get down information that you need, quickly. It includes a text editor, voice recorder and a simple camera. All the documents can be stored in the app and have the option to be exported if needed. 
 
