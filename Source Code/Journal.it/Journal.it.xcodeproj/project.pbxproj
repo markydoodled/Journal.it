@@ -1,0 +1,454 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D512A46827AAFB5D00057524 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D512A46727AAFB5D00057524 /* SettingsView.swift */; };
+		D512A46A27AAFC9C00057524 /* Notes.swift in Sources */ = {isa = PBXBuildFile; fileRef = D512A46927AAFC9C00057524 /* Notes.swift */; };
+		D512A46C27AAFCA400057524 /* Audio.swift in Sources */ = {isa = PBXBuildFile; fileRef = D512A46B27AAFCA400057524 /* Audio.swift */; };
+		D512A46E27AAFCAB00057524 /* Camera.swift in Sources */ = {isa = PBXBuildFile; fileRef = D512A46D27AAFCAB00057524 /* Camera.swift */; };
+		D512A47127AAFD3A00057524 /* HighlightedTextEditor in Frameworks */ = {isa = PBXBuildFile; productRef = D512A47027AAFD3A00057524 /* HighlightedTextEditor */; };
+		D512A47427AB076A00057524 /* SwiftUIKit in Frameworks */ = {isa = PBXBuildFile; productRef = D512A47327AB076A00057524 /* SwiftUIKit */; };
+		D512A47727AB1FAA00057524 /* AudioPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = D512A47627AB1FAA00057524 /* AudioPlayer.swift */; };
+		D512A47927AB1FE500057524 /* AudioRecorder.swift in Sources */ = {isa = PBXBuildFile; fileRef = D512A47827AB1FE500057524 /* AudioRecorder.swift */; };
+		D512A47B27AB202400057524 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = D512A47A27AB202400057524 /* Extensions.swift */; };
+		D512A47D27AB205400057524 /* Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = D512A47C27AB205400057524 /* Helper.swift */; };
+		D512A47F27AB207D00057524 /* RecordingDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D512A47E27AB207D00057524 /* RecordingDataModel.swift */; };
+		D512A48127AB20CB00057524 /* RecordingsList.swift in Sources */ = {isa = PBXBuildFile; fileRef = D512A48027AB20CB00057524 /* RecordingsList.swift */; };
+		D5B24D9127A9CB61006CCCF9 /* Journal_itApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5B24D9027A9CB61006CCCF9 /* Journal_itApp.swift */; };
+		D5B24D9327A9CB61006CCCF9 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5B24D9227A9CB61006CCCF9 /* ContentView.swift */; };
+		D5B24D9527A9CB64006CCCF9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D5B24D9427A9CB64006CCCF9 /* Assets.xcassets */; };
+		D5B24D9827A9CB64006CCCF9 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D5B24D9727A9CB64006CCCF9 /* Preview Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		D512A46727AAFB5D00057524 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		D512A46927AAFC9C00057524 /* Notes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Notes.swift; sourceTree = "<group>"; };
+		D512A46B27AAFCA400057524 /* Audio.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Audio.swift; sourceTree = "<group>"; };
+		D512A46D27AAFCAB00057524 /* Camera.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Camera.swift; sourceTree = "<group>"; };
+		D512A47627AB1FAA00057524 /* AudioPlayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioPlayer.swift; sourceTree = "<group>"; };
+		D512A47827AB1FE500057524 /* AudioRecorder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioRecorder.swift; sourceTree = "<group>"; };
+		D512A47A27AB202400057524 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		D512A47C27AB205400057524 /* Helper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Helper.swift; sourceTree = "<group>"; };
+		D512A47E27AB207D00057524 /* RecordingDataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecordingDataModel.swift; sourceTree = "<group>"; };
+		D512A48027AB20CB00057524 /* RecordingsList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecordingsList.swift; sourceTree = "<group>"; };
+		D512A48227AC66FC00057524 /* Journal-it-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "Journal-it-Info.plist"; sourceTree = SOURCE_ROOT; };
+		D5B24D8D27A9CB61006CCCF9 /* Journal.it.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Journal.it.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D5B24D9027A9CB61006CCCF9 /* Journal_itApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Journal_itApp.swift; sourceTree = "<group>"; };
+		D5B24D9227A9CB61006CCCF9 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		D5B24D9427A9CB64006CCCF9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D5B24D9727A9CB64006CCCF9 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D5B24D8A27A9CB61006CCCF9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D512A47127AAFD3A00057524 /* HighlightedTextEditor in Frameworks */,
+				D512A47427AB076A00057524 /* SwiftUIKit in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D512A47527AB1D9700057524 /* Audio */ = {
+			isa = PBXGroup;
+			children = (
+				D512A47627AB1FAA00057524 /* AudioPlayer.swift */,
+				D512A47827AB1FE500057524 /* AudioRecorder.swift */,
+				D512A47A27AB202400057524 /* Extensions.swift */,
+				D512A47C27AB205400057524 /* Helper.swift */,
+				D512A47E27AB207D00057524 /* RecordingDataModel.swift */,
+				D512A48027AB20CB00057524 /* RecordingsList.swift */,
+			);
+			path = Audio;
+			sourceTree = "<group>";
+		};
+		D5B24D8427A9CB61006CCCF9 = {
+			isa = PBXGroup;
+			children = (
+				D5B24D8F27A9CB61006CCCF9 /* Journal.it */,
+				D5B24D8E27A9CB61006CCCF9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D5B24D8E27A9CB61006CCCF9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D5B24D8D27A9CB61006CCCF9 /* Journal.it.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D5B24D8F27A9CB61006CCCF9 /* Journal.it */ = {
+			isa = PBXGroup;
+			children = (
+				D512A48227AC66FC00057524 /* Journal-it-Info.plist */,
+				D512A47527AB1D9700057524 /* Audio */,
+				D5B24D9027A9CB61006CCCF9 /* Journal_itApp.swift */,
+				D5B24D9227A9CB61006CCCF9 /* ContentView.swift */,
+				D5B24D9427A9CB64006CCCF9 /* Assets.xcassets */,
+				D5B24D9627A9CB64006CCCF9 /* Preview Content */,
+				D512A46727AAFB5D00057524 /* SettingsView.swift */,
+				D512A46927AAFC9C00057524 /* Notes.swift */,
+				D512A46B27AAFCA400057524 /* Audio.swift */,
+				D512A46D27AAFCAB00057524 /* Camera.swift */,
+			);
+			path = Journal.it;
+			sourceTree = "<group>";
+		};
+		D5B24D9627A9CB64006CCCF9 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				D5B24D9727A9CB64006CCCF9 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D5B24D8C27A9CB61006CCCF9 /* Journal.it */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D5B24D9B27A9CB64006CCCF9 /* Build configuration list for PBXNativeTarget "Journal.it" */;
+			buildPhases = (
+				D5B24D8927A9CB61006CCCF9 /* Sources */,
+				D5B24D8A27A9CB61006CCCF9 /* Frameworks */,
+				D5B24D8B27A9CB61006CCCF9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Journal.it;
+			packageProductDependencies = (
+				D512A47027AAFD3A00057524 /* HighlightedTextEditor */,
+				D512A47327AB076A00057524 /* SwiftUIKit */,
+			);
+			productName = Journal.it;
+			productReference = D5B24D8D27A9CB61006CCCF9 /* Journal.it.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D5B24D8527A9CB61006CCCF9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1310;
+				LastUpgradeCheck = 1310;
+				TargetAttributes = {
+					D5B24D8C27A9CB61006CCCF9 = {
+						CreatedOnToolsVersion = 13.1;
+					};
+				};
+			};
+			buildConfigurationList = D5B24D8827A9CB61006CCCF9 /* Build configuration list for PBXProject "Journal.it" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D5B24D8427A9CB61006CCCF9;
+			packageReferences = (
+				D512A46F27AAFD3A00057524 /* XCRemoteSwiftPackageReference "HighlightedTextEditor" */,
+				D512A47227AB076900057524 /* XCRemoteSwiftPackageReference "SwiftUIKit" */,
+			);
+			productRefGroup = D5B24D8E27A9CB61006CCCF9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D5B24D8C27A9CB61006CCCF9 /* Journal.it */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D5B24D8B27A9CB61006CCCF9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D5B24D9827A9CB64006CCCF9 /* Preview Assets.xcassets in Resources */,
+				D5B24D9527A9CB64006CCCF9 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D5B24D8927A9CB61006CCCF9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D512A46827AAFB5D00057524 /* SettingsView.swift in Sources */,
+				D512A47F27AB207D00057524 /* RecordingDataModel.swift in Sources */,
+				D512A47B27AB202400057524 /* Extensions.swift in Sources */,
+				D512A48127AB20CB00057524 /* RecordingsList.swift in Sources */,
+				D5B24D9327A9CB61006CCCF9 /* ContentView.swift in Sources */,
+				D512A46E27AAFCAB00057524 /* Camera.swift in Sources */,
+				D5B24D9127A9CB61006CCCF9 /* Journal_itApp.swift in Sources */,
+				D512A46A27AAFC9C00057524 /* Notes.swift in Sources */,
+				D512A46C27AAFCA400057524 /* Audio.swift in Sources */,
+				D512A47D27AB205400057524 /* Helper.swift in Sources */,
+				D512A47927AB1FE500057524 /* AudioRecorder.swift in Sources */,
+				D512A47727AB1FAA00057524 /* AudioPlayer.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		D5B24D9927A9CB64006CCCF9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D5B24D9A27A9CB64006CCCF9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D5B24D9C27A9CB64006CCCF9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Journal.it/Preview Content\"";
+				DEVELOPMENT_TEAM = ZWASU9HFBU;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Journal-it-Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = Journal.it;
+				INFOPLIST_KEY_LSSupportsOpeningDocumentsInPlace = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "To Take Pictures, You Must Allow Access To The Camera.";
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "To Record Audio, You Must Allow Access To The Microphone.";
+				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = "To Save Photos To The Photo Library, You Must Allow Access.";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.MSJ.Journal-it";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D5B24D9D27A9CB64006CCCF9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Journal.it/Preview Content\"";
+				DEVELOPMENT_TEAM = ZWASU9HFBU;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Journal-it-Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = Journal.it;
+				INFOPLIST_KEY_LSSupportsOpeningDocumentsInPlace = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "To Take Pictures, You Must Allow Access To The Camera.";
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "To Record Audio, You Must Allow Access To The Microphone.";
+				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = "To Save Photos To The Photo Library, You Must Allow Access.";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.MSJ.Journal-it";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D5B24D8827A9CB61006CCCF9 /* Build configuration list for PBXProject "Journal.it" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D5B24D9927A9CB64006CCCF9 /* Debug */,
+				D5B24D9A27A9CB64006CCCF9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D5B24D9B27A9CB64006CCCF9 /* Build configuration list for PBXNativeTarget "Journal.it" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D5B24D9C27A9CB64006CCCF9 /* Debug */,
+				D5B24D9D27A9CB64006CCCF9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		D512A46F27AAFD3A00057524 /* XCRemoteSwiftPackageReference "HighlightedTextEditor" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/kyle-n/HighlightedTextEditor";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.0.0;
+			};
+		};
+		D512A47227AB076900057524 /* XCRemoteSwiftPackageReference "SwiftUIKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/danielsaidi/SwiftUIKit";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		D512A47027AAFD3A00057524 /* HighlightedTextEditor */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = D512A46F27AAFD3A00057524 /* XCRemoteSwiftPackageReference "HighlightedTextEditor" */;
+			productName = HighlightedTextEditor;
+		};
+		D512A47327AB076A00057524 /* SwiftUIKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = D512A47227AB076900057524 /* XCRemoteSwiftPackageReference "SwiftUIKit" */;
+			productName = SwiftUIKit;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = D5B24D8527A9CB61006CCCF9 /* Project object */;
+}

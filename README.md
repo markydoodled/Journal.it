@@ -1,29 +1,39 @@
 # Journal.it
 **About**
 
-This is a SwiftUI app that allows you to quickly get down information that you need, quickly. It includes a text editor, voice recorder and a simple camera. All the documents can be stored in the app and have the option to be exported if needed. 
+This Is A SwiftUI App That Allows You To Quickly Get Down Information That You Need, Quickly. It Includes A Text Editor, Audio Recorder And A Simple Camera. The Notes Document Can Be Stored In The App And Has The Option To Be Exported If Needed. Recording Can Be Accessed Through The Files App And Photos Can Be Accessed Through The Photos App.
 
-# Features
+## **Releases**
 
- - Ability to take photos
- - Ability to make notes
- - Ability to record audio
- - Ability to share files outside of the app
+[Click Here...]()
 
-# Releases
+## **Features**
 
-Stay Tuned...
+ - Take Photos
+ - Make Notes
+ - Record Audio
+ - Share Files Outside Of The App
 
-# Features To Come
+## **Features To Be Implemented**
 
  - Light Photo Editing
  - Recording Editing
- - Audio to text conversion
+ - Audio To Text Conversion
  - A macOS App
+ 
+ ## **Images**
+ 
+ [Click Here...]()
 
-# Things To Note
+## **Things To Note**
 
-This is not a fully fledged version of any of the core features in the app. It is designed to be a quick and light all-in-one solution. It is not designed for heavy usage all the time,  and the features here probably won’t stand up to those use cases. However, proper apps for each of these core features could be considered in the future.
+ 1. This Project Is Free To Be Added To By The Community, If You Wish To Help, File A Issue With The Enhancement Tag
+ 2. Any And All Feedback Will Be Helpful For Future Development
+ 3. If You Wish To Report A Bug, Please Use Either The Feedback Button In The App Or Use GitHub Issues
 
-# Images
-Stay Tuned... 
+ ## **Credits**
+ 
+ Thanks To These People Who Developed These Packages, Who Without This Project Would Not Be Possible:
+ 
+ - danielsaidi [SwiftUIKit](https://github.com/danielsaidi/SwiftUIKit)
+ - kyle-n [HighlightedTextEditor](https://github.com/kyle-n/HighlightedTextEditor)

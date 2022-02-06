@@ -1,0 +1,25 @@
+{
+  "object": {
+    "pins": [
+      {
+        "package": "HighlightedTextEditor",
+        "repositoryURL": "https://github.com/kyle-n/HighlightedTextEditor",
+        "state": {
+          "branch": null,
+          "revision": "7069ede002afc6bde867aef7035f45ff72dc839c",
+          "version": "2.1.0"
+        }
+      },
+      {
+        "package": "SwiftUIKit",
+        "repositoryURL": "https://github.com/danielsaidi/SwiftUIKit",
+        "state": {
+          "branch": null,
+          "revision": "9bfab2d0913e372015f32eff86850d3a76e7c41d",
+          "version": "2.3.3"
+        }
+      }
+    ]
+  },
+  "version": 1
+}
