@@ -37,11 +37,13 @@ struct Notes: View {
                 .navigationTitle("Notes")
                 .navigationBarTitleDisplayMode(.inline)
                 .toolbar {
+                    #if !targetEnvironment(macCatalyst)
                     ToolbarItem(placement: .navigationBarLeading) {
                         Button(action: {UIApplication.shared.sendAction(#selector(UIResponder.resignFirstResponder), to: nil, from: nil, for: nil)}) {
                             Image(systemName: "keyboard.chevron.compact.down")
                         }
                     }
+                    #endif
                     ToolbarItem(placement: .navigationBarTrailing) {
                         Button(action: {self.showingShareSheet = true}) {
                             Image(systemName: "square.and.arrow.up")
@@ -75,11 +77,13 @@ struct Notes: View {
             .navigationTitle("Notes")
             .navigationBarTitleDisplayMode(.inline)
             .toolbar {
+                #if !targetEnvironment(macCatalyst)
                 ToolbarItem(placement: .navigationBarLeading) {
                     Button(action: {UIApplication.shared.sendAction(#selector(UIResponder.resignFirstResponder), to: nil, from: nil, for: nil)}) {
                         Image(systemName: "keyboard.chevron.compact.down")
                     }
                 }
+                #endif
                 ToolbarItem(placement: .navigationBarTrailing) {
                     Button(action: {self.showingShareSheet = true}) {
                         Image(systemName: "square.and.arrow.up")

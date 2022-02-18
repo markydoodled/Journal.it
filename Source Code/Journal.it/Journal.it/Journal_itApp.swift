@@ -6,12 +6,18 @@
 //
 
 import SwiftUI
+import SwiftSpeech
 
 @main
 struct Journal_itApp: App {
     var body: some Scene {
         WindowGroup {
             ContentView(audioRecorder: AudioRecorder())
+            #if !targetEnvironment(macCatalyst)
+                .onAppear {
+                    SwiftSpeech.requestSpeechRecognitionAuthorization()
+                }
+            #endif
         }
     }
 }

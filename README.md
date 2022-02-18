@@ -5,7 +5,7 @@ This Is A SwiftUI App That Allows You To Quickly Get Down Information That You N
 
 ## **Releases**
 
-[Click Here...]()
+[Click Here...](https://github.com/markydoodled/Journal.it/releases)
 
 ## **Features**
 
@@ -13,17 +13,18 @@ This Is A SwiftUI App That Allows You To Quickly Get Down Information That You N
  - Make Notes
  - Record Audio
  - Share Files Outside Of The App
+ - A macOS App
+ - Audio To Text Conversion (iOS Only)
+ - Light Photo Editing/Filtering
+ - Recording Trimming
 
 ## **Features To Be Implemented**
 
- - Light Photo Editing
- - Recording Editing
- - Audio To Text Conversion
- - A macOS App
+Any Suggestions...
  
  ## **Images**
  
- [Click Here...]()
+ [Click Here...](https://github.com/markydoodled/Journal.it/tree/main/Images)
 
 ## **Things To Note**
 
@@ -37,3 +38,4 @@ This Is A SwiftUI App That Allows You To Quickly Get Down Information That You N
  
  - danielsaidi [SwiftUIKit](https://github.com/danielsaidi/SwiftUIKit)
  - kyle-n [HighlightedTextEditor](https://github.com/kyle-n/HighlightedTextEditor)
+ - Cay-Zhang [SwiftSpeech](https://github.com/Cay-Zhang/SwiftSpeech)

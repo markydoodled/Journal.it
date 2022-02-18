@@ -11,6 +11,15 @@
         }
       },
       {
+        "package": "SwiftSpeech",
+        "repositoryURL": "https://github.com/Cay-Zhang/SwiftSpeech",
+        "state": {
+          "branch": null,
+          "revision": "6e41f289f5ccc1751ef5674972d46b48b326c4c6",
+          "version": "0.9.3"
+        }
+      },
+      {
         "package": "SwiftUIKit",
         "repositoryURL": "https://github.com/danielsaidi/SwiftUIKit",
         "state": {

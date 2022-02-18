@@ -39,11 +39,21 @@ struct ContentView: View {
                             Text("Camera")
                         }
                     }
+                #if !targetEnvironment(macCatalyst)
+                AudioToText()
+                    .tag(4)
+                    .tabItem {
+                        VStack {
+                            Image(systemName: "waveform")
+                            Text("Audio To Text")
+                        }
+                    }
+                #endif
                 NavigationView {
                     SettingsView()
                         .navigationTitle("Settings")
                 }
-                .tag(4)
+                .tag(5)
                 .tabItem {
                     VStack {
                         Image(systemName: "gearshape")
@@ -63,6 +73,11 @@ struct ContentView: View {
                     NavigationLink(destination: Camera()) {
                         Label("Camera", systemImage: "camera")
                     }
+                    #if !targetEnvironment(macCatalyst)
+                    NavigationLink(destination: AudioToText()) {
+                        Label("Audio To Text", systemImage: "waveform")
+                    }
+                    #endif
                 }
                 .toolbar {
                     ToolbarItem(placement: .navigationBarTrailing) {

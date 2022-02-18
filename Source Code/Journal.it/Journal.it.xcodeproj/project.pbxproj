@@ -23,7 +23,23 @@
 		D5B24D9327A9CB61006CCCF9 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5B24D9227A9CB61006CCCF9 /* ContentView.swift */; };
 		D5B24D9527A9CB64006CCCF9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D5B24D9427A9CB64006CCCF9 /* Assets.xcassets */; };
 		D5B24D9827A9CB64006CCCF9 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D5B24D9727A9CB64006CCCF9 /* Preview Assets.xcassets */; };
+		D5C2FCD727B85216005B9790 /* Settings.bundle in Resources */ = {isa = PBXBuildFile; fileRef = D5C2FCD627B85216005B9790 /* Settings.bundle */; };
+		D5C2FCDA27B96690005B9790 /* AudioToText.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5C2FCD927B96690005B9790 /* AudioToText.swift */; };
+		D5C2FCDD27B966B6005B9790 /* SwiftSpeech in Frameworks */ = {isa = PBXBuildFile; productRef = D5C2FCDC27B966B6005B9790 /* SwiftSpeech */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		D5C2FCF327BD7DC2005B9790 /* Embed Libraries */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			name = "Embed Libraries";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		D512A46727AAFB5D00057524 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
@@ -42,6 +58,9 @@
 		D5B24D9227A9CB61006CCCF9 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		D5B24D9427A9CB64006CCCF9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D5B24D9727A9CB64006CCCF9 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		D5C2FCD627B85216005B9790 /* Settings.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Settings.bundle; sourceTree = "<group>"; };
+		D5C2FCD827B8528E005B9790 /* Journal.it.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Journal.it.entitlements; sourceTree = "<group>"; };
+		D5C2FCD927B96690005B9790 /* AudioToText.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioToText.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -50,6 +69,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D512A47127AAFD3A00057524 /* HighlightedTextEditor in Frameworks */,
+				D5C2FCDD27B966B6005B9790 /* SwiftSpeech in Frameworks */,
 				D512A47427AB076A00057524 /* SwiftUIKit in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -75,6 +95,7 @@
 			children = (
 				D5B24D8F27A9CB61006CCCF9 /* Journal.it */,
 				D5B24D8E27A9CB61006CCCF9 /* Products */,
+				D5C2FCEE27BD7DC2005B9790 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -89,6 +110,7 @@
 		D5B24D8F27A9CB61006CCCF9 /* Journal.it */ = {
 			isa = PBXGroup;
 			children = (
+				D5C2FCD827B8528E005B9790 /* Journal.it.entitlements */,
 				D512A48227AC66FC00057524 /* Journal-it-Info.plist */,
 				D512A47527AB1D9700057524 /* Audio */,
 				D5B24D9027A9CB61006CCCF9 /* Journal_itApp.swift */,
@@ -99,6 +121,8 @@
 				D512A46927AAFC9C00057524 /* Notes.swift */,
 				D512A46B27AAFCA400057524 /* Audio.swift */,
 				D512A46D27AAFCAB00057524 /* Camera.swift */,
+				D5C2FCD627B85216005B9790 /* Settings.bundle */,
+				D5C2FCD927B96690005B9790 /* AudioToText.swift */,
 			);
 			path = Journal.it;
 			sourceTree = "<group>";
@@ -111,6 +135,13 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
+		D5C2FCEE27BD7DC2005B9790 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -121,6 +152,7 @@
 				D5B24D8927A9CB61006CCCF9 /* Sources */,
 				D5B24D8A27A9CB61006CCCF9 /* Frameworks */,
 				D5B24D8B27A9CB61006CCCF9 /* Resources */,
+				D5C2FCF327BD7DC2005B9790 /* Embed Libraries */,
 			);
 			buildRules = (
 			);
@@ -130,6 +162,7 @@
 			packageProductDependencies = (
 				D512A47027AAFD3A00057524 /* HighlightedTextEditor */,
 				D512A47327AB076A00057524 /* SwiftUIKit */,
+				D5C2FCDC27B966B6005B9790 /* SwiftSpeech */,
 			);
 			productName = Journal.it;
 			productReference = D5B24D8D27A9CB61006CCCF9 /* Journal.it.app */;
@@ -162,6 +195,7 @@
 			packageReferences = (
 				D512A46F27AAFD3A00057524 /* XCRemoteSwiftPackageReference "HighlightedTextEditor" */,
 				D512A47227AB076900057524 /* XCRemoteSwiftPackageReference "SwiftUIKit" */,
+				D5C2FCDB27B966B6005B9790 /* XCRemoteSwiftPackageReference "SwiftSpeech" */,
 			);
 			productRefGroup = D5B24D8E27A9CB61006CCCF9 /* Products */;
 			projectDirPath = "";
@@ -178,6 +212,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D5B24D9827A9CB64006CCCF9 /* Preview Assets.xcassets in Resources */,
+				D5C2FCD727B85216005B9790 /* Settings.bundle in Resources */,
 				D5B24D9527A9CB64006CCCF9 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -200,6 +235,7 @@
 				D512A46C27AAFCA400057524 /* Audio.swift in Sources */,
 				D512A47D27AB205400057524 /* Helper.swift in Sources */,
 				D512A47927AB1FE500057524 /* AudioRecorder.swift in Sources */,
+				D5C2FCDA27B96690005B9790 /* AudioToText.swift in Sources */,
 				D512A47727AB1FAA00057524 /* AudioPlayer.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -328,18 +364,23 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Journal.it/Journal.it.entitlements;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 5;
 				DEVELOPMENT_ASSET_PATHS = "\"Journal.it/Preview Content\"";
 				DEVELOPMENT_TEAM = ZWASU9HFBU;
+				"ENABLE_HARDENED_RUNTIME[sdk=macosx*]" = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "Journal-it-Info.plist";
 				INFOPLIST_KEY_CFBundleDisplayName = Journal.it;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.productivity";
 				INFOPLIST_KEY_LSSupportsOpeningDocumentsInPlace = YES;
+				INFOPLIST_KEY_NSAppleEventsUsageDescription = "To Open App Folder Windows In Finder, You Must Allow Access.";
 				INFOPLIST_KEY_NSCameraUsageDescription = "To Take Pictures, You Must Allow Access To The Camera.";
 				INFOPLIST_KEY_NSMicrophoneUsageDescription = "To Record Audio, You Must Allow Access To The Microphone.";
 				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = "To Save Photos To The Photo Library, You Must Allow Access.";
+				INFOPLIST_KEY_NSSpeechRecognitionUsageDescription = "To Use Audio To Text, You Must Allow Access To Speech Recognition.";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -350,9 +391,10 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 1.1;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.MSJ.Journal-it";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTS_MACCATALYST = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -364,18 +406,23 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Journal.it/Journal.it.entitlements;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 5;
 				DEVELOPMENT_ASSET_PATHS = "\"Journal.it/Preview Content\"";
 				DEVELOPMENT_TEAM = ZWASU9HFBU;
+				"ENABLE_HARDENED_RUNTIME[sdk=macosx*]" = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "Journal-it-Info.plist";
 				INFOPLIST_KEY_CFBundleDisplayName = Journal.it;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.productivity";
 				INFOPLIST_KEY_LSSupportsOpeningDocumentsInPlace = YES;
+				INFOPLIST_KEY_NSAppleEventsUsageDescription = "To Open App Folder Windows In Finder, You Must Allow Access.";
 				INFOPLIST_KEY_NSCameraUsageDescription = "To Take Pictures, You Must Allow Access To The Camera.";
 				INFOPLIST_KEY_NSMicrophoneUsageDescription = "To Record Audio, You Must Allow Access To The Microphone.";
 				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = "To Save Photos To The Photo Library, You Must Allow Access.";
+				INFOPLIST_KEY_NSSpeechRecognitionUsageDescription = "To Use Audio To Text, You Must Allow Access To Speech Recognition.";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -386,9 +433,10 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 1.1;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.MSJ.Journal-it";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTS_MACCATALYST = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -435,6 +483,14 @@
 				minimumVersion = 2.0.0;
 			};
 		};
+		D5C2FCDB27B966B6005B9790 /* XCRemoteSwiftPackageReference "SwiftSpeech" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Cay-Zhang/SwiftSpeech";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.9.3;
+			};
+		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
@@ -447,6 +503,11 @@
 			isa = XCSwiftPackageProductDependency;
 			package = D512A47227AB076900057524 /* XCRemoteSwiftPackageReference "SwiftUIKit" */;
 			productName = SwiftUIKit;
+		};
+		D5C2FCDC27B966B6005B9790 /* SwiftSpeech */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = D5C2FCDB27B966B6005B9790 /* XCRemoteSwiftPackageReference "SwiftSpeech" */;
+			productName = SwiftSpeech;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};
