@@ -1,11 +1,6 @@
 # Journal.it
-**About**
 
 This Is A SwiftUI App That Allows You To Quickly Get Down Information That You Need, Quickly. It Includes A Text Editor, Audio Recorder And A Simple Camera. The Notes Document Can Be Stored In The App And Has The Option To Be Exported If Needed. Recording Can Be Accessed Through The Files App And Photos Can Be Accessed Through The Photos App.
-
-## **Releases**
-
-[Click Here...](https://github.com/markydoodled/Journal.it/releases)
 
 ## **Features**
 
@@ -18,13 +13,17 @@ This Is A SwiftUI App That Allows You To Quickly Get Down Information That You N
  - Light Photo Editing/Filtering
  - Recording Trimming
 
-## **Features To Be Implemented**
+## **Features To Be Added**
 
 Any Suggestions...
  
- ## **Images**
+## **Images**
  
- [Click Here...](https://github.com/markydoodled/Journal.it/tree/main/Images)
+ [Click Here For All Images...](https://github.com/markydoodled/Journal.it/tree/main/Images)
+ 
+## **Releases**
+
+[Click Here For All Releases...](https://github.com/markydoodled/Journal.it/releases)
 
 ## **Things To Note**
 
@@ -32,7 +31,7 @@ Any Suggestions...
  2. Any And All Feedback Will Be Helpful For Future Development
  3. If You Wish To Report A Bug, Please Use Either The Feedback Button In The App Or Use GitHub Issues
 
- ## **Credits**
+## **Credits**
  
  Thanks To These People Who Developed These Packages, Who Without This Project Would Not Be Possible:
  
