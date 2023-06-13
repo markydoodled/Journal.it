@@ -6,22 +6,15 @@ THIS IS AN EXAMPLE APP THAT SHOWS EXAMPLE CODE THAT IS USED TO HELP PEOPLE UNDER
 
 ## **Features**
 
+ - macOS App
+ - iOS App
  - Take Photos
  - Make Notes
  - Record Audio
  - Share Files Outside Of The App
- - A macOS App
  - Audio To Text Conversion (iOS Only)
  - Light Photo Editing/Filtering
  - Recording Trimming
-
-## **Features To Be Added**
-
-Any Suggestions...
- 
-## **Images**
- 
- [Click Here For All Images...](https://github.com/markydoodled/Journal.it/tree/main/Images)
  
 ## **Releases**
 
