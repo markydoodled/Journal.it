@@ -2,6 +2,8 @@
 
 This Is A SwiftUI App That Allows You To Quickly Get Down Information That You Need, Quickly. It Includes A Text Editor, Audio Recorder And A Simple Camera. The Notes Document Can Be Stored In The App And Has The Option To Be Exported If Needed. Recording Can Be Accessed Through The Files App And Photos Can Be Accessed Through The Photos App.
 
+THIS IS AN EXAMPLE APP THAT SHOWS EXAMPLE CODE THAT IS USED TO HELP PEOPLE UNDERSTAND HOW iOS AND SwiftUI WORKS, PLEASE EXPECT BUGS!
+
 ## **Features**
 
  - Take Photos
