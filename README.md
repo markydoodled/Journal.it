@@ -18,7 +18,7 @@ THIS IS AN EXAMPLE APP THAT SHOWS EXAMPLE CODE THAT IS USED TO HELP PEOPLE UNDER
  
 ## **Releases**
 
-[Click Here For All Releases...](https://github.com/markydoodled/Journal.it/releases)
+[Click Here...](https://github.com/markydoodled/Journal.it/releases)
 
 ## **Things To Note**
 
