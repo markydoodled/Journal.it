@@ -15,6 +15,7 @@ THIS IS AN EXAMPLE APP THAT SHOWS EXAMPLE CODE THAT IS USED TO HELP PEOPLE UNDER
  - Audio To Text Conversion (iOS Only)
  - Light Photo Editing/Filtering
  - Recording Trimming
+ - Feedback Button
  
 ## **Releases**
 
